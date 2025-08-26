@@ -43,7 +43,7 @@ icebreaker_bot/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/HaileyTQuach/icebreaker.git
+git clone https://github.com/jknigel/LinkedIn-Persona-Research-AI.git
 cd icebreaker
 ```
 
