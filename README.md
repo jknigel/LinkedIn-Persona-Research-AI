@@ -84,40 +84,6 @@ python app.py
 
 Then open your browser to the URL shown in the terminal (typically http://127.0.0.1:7860).
 
-## Development Tasks
-
-This is a starter template with placeholder functions. Your task is to implement the following components:
-
-1. In `config.py`:
-   - Define the prompt templates for facts generation and question answering
-
-2. In `modules/data_extraction.py`:
-   - Implement the `extract_linkedin_profile` function
-
-3. In `modules/data_processing.py`:
-   - Implement the `split_profile_data` function
-   - Implement the `create_vector_database` function
-   - Implement the `verify_embeddings` function
-
-4. In `modules/llm_interface.py`:
-   - Implement the `create_watsonx_embedding` function
-   - Implement the `create_watsonx_llm` function
-   - Implement the `change_llm_model` function
-
-5. In `modules/query_engine.py`:
-   - Implement the `generate_initial_facts` function
-   - Implement the `answer_user_query` function
-
-6. Update `modules/__init__.py` to import your implemented functions
-
-7. In `main.py`:
-   - Implement the `process_linkedin` function
-   - Implement the `chatbot_interface` function
-
-8. In `app.py`:
-   - Implement the `process_profile` function
-   - Implement the `chat_with_profile` function
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
